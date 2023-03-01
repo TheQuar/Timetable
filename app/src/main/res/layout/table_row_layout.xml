@@ -1,0 +1,37 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_lesson_number"
+        style="@style/table_row_item"
+        android:layout_width="0dp"
+        android:layout_column="0"
+        android:layout_weight="0.4"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/tv_lesson_name"
+        style="@style/table_row_item"
+        android:layout_width="0dp"
+        android:layout_column="0"
+        android:layout_weight="0.7"
+        android:text="English" />
+
+    <TextView
+        android:id="@+id/tv_lesson_time"
+        style="@style/table_row_item"
+        android:layout_width="0dp"
+        android:layout_column="1"
+        android:layout_weight="0.5"
+        android:text="8:00-9:45" />
+
+    <TextView
+        android:id="@+id/tv_lesson_teacher"
+        style="@style/table_row_item"
+        android:layout_width="0dp"
+        android:layout_column="1"
+        android:layout_weight="0.8"
+        android:text="Teacher name" />
+
+</TableRow>
